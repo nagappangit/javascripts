@@ -1,6 +1,6 @@
 <script>
     let FirstName = "Nagappan";
     let LastName = 'Kumaresan';
-    console.log(FirstName);
-    console.log(LastName);
+    document.console.log(FirstName);
+    document.console.log(LastName);
 </script>
