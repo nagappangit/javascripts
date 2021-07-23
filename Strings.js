@@ -1,6 +1,6 @@
 <script>
-    let FirstName = "Nagappan";
-    let LastName = 'Kumaresan';
-    document.console.log(FirstName);
-    document.console.log(LastName);
+    let FirstName = "Nagappan";// Double Quotes
+    let LastName = 'Kumaresan';// Single Quotes
+    console.log(FirstName);
+    console.log(LastName);
 </script>
