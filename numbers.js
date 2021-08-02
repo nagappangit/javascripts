@@ -1,0 +1,10 @@
+let x = Number(new Date("2021-09-10"));
+console.log(x);
+let y = Number.MAX_VALUE;
+console.log(y);
+let z =- Number.MIN_VALUE;
+console.log(z);
+let xy = Number.POSITIVE_INFINITY;
+console.log(xy);
+let yx = Number.NEGATIVE_INFINITY;
+console.log(yx);
