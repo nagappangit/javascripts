@@ -1,5 +1,5 @@
 var Cars = ["Sedan", "Etos", "SUV"];
-//Cars[0] = "Compass";
+//Cars[0] = "Compass"; //Change the first elemet
 console.log(Cars);
 console.log(Cars[1]);
 const person = {firstName:"Nagappan", lastName:"Kumaresan", age:36};
