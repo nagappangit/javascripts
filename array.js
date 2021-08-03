@@ -22,5 +22,5 @@ console.log(Cars.forEach(myFunction));
 
 function myFunction(value)
 {
-    console.log(value);
+    console.log(value);// array lloping with function
 }
