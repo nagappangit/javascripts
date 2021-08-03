@@ -1,5 +1,5 @@
-var Cars = ["Sedan", "Etos", "SUV"];
-//Cars[0] = "Compass"; //Change the first elemet
+var Cars = ["Sedan", "Etios", "SUV"];
+//Cars[0] = "Compass"; //Change the first element
 console.log(Cars);
 console.log(Cars[1]);
 const person = {firstName:"Nagappan", lastName:"Kumaresan", age:36};
@@ -22,5 +22,5 @@ console.log(Cars.forEach(myFunction));
 
 function myFunction(value)
 {
-    console.log(value);// array lloping with function
+    console.log(value);// array looping with function
 }
