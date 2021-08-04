@@ -6,10 +6,10 @@ const person = {firstName:"Nagappan", lastName:"Kumaresan", age:36};
 console.log(person);
 console.log(person.firstName);
 console.log(Cars.length);
-console.log(Cars[0]);
-console.log(Cars[Cars.length - 1]);
-function CarDet()
-{
+console.log(Cars[0]); //accessing first array element
+console.log(Cars[Cars.length - 1]); //aaccessing last array element
+//Looping Array Elements
+function CarDet(){
     let CarLen = Cars.length;
     for(let i = 0; i < CarLen; i++)
     {
@@ -17,10 +17,14 @@ function CarDet()
     }
 }
 console.log(CarDet());
-
-console.log(Cars.forEach(myFunction));
-
-function myFunction(value)
-{
+function myFunction(value){
     console.log(value);// array looping with function
 }
+console.log(Cars.forEach(myFunction)); // looping array element using forEach mathod
+//Adding Array Elements
+Cars.push("SUV Innova");
+console.log(Cars);
+//using the length property
+Cars[Cars.length] = "SUV Crysta";
+console.log(Cars);
+//Associative Arrays
