@@ -28,3 +28,9 @@ console.log(Cars);
 Cars[Cars.length] = "SUV Crysta";
 console.log(Cars);
 //Associative Arrays
+const People = [];
+People[0] = "India";
+People[1] = "Population";
+People[2] = 1234567;
+console.log(People.length);
+console.log(People[1]);
