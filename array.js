@@ -34,3 +34,22 @@ People[1] = "Population";
 People[2] = 1234567;
 console.log(People.length);
 console.log(People[1]);
+console.log(typeof People);
+console.log(typeof Cars);
+//Avoid new Array()
+const Marks = new Array(50, 100, 10, 15, 45, 100);
+console.log(Marks);
+const MarksNew = [90, 100, 90, 95, 95, 100]; // This way is better for the above new Array
+console.log(MarksNew);
+//Converting Arrays to Strings
+console.log(Marks.toString());
+console.log(MarksNew.toString());
+console.log(Marks.join(" | "));
+//Array Popping and Pushing
+var Cars = ["Sedan", "Etios", "SUV"];
+console.log(Cars.pop());//it returns the last element ( like last in first out)
+console.log(Cars.pop(1));//it returns the specified elements
+console.log(Cars.push("Innova"));// it push the value to last elemnt after
+console.log(Cars.toString());
+console.log(Cars.push("Crysta"));
+console.log(Cars.toString());
