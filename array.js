@@ -59,3 +59,11 @@ console.log(Cars.unshift("Tempo"));
 //Changing Elements
 console.log(Cars[0] = "Magna");
 console.log(Cars.toString());
+//Deleting Elements
+delete Cars[0];// Use pop and shift insted of this delete
+console.log(Cars.toString());
+//Splicing an Array
+Cars.splice(2,0,"Mahindra","KIA");
+console.log(Cars.toString());
+Cars.splice(0,1,"Etios");
+console.log(Cars.toString());
