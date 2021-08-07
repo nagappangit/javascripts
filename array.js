@@ -53,3 +53,9 @@ console.log(Cars.push("Innova"));// it push the value to last elemnt after
 console.log(Cars.toString());
 console.log(Cars.push("Crysta"));
 console.log(Cars.toString());
+//Shifting Elements
+console.log(Cars.shift());
+console.log(Cars.unshift("Tempo"));
+//Changing Elements
+console.log(Cars[0] = "Magna");
+console.log(Cars.toString());
