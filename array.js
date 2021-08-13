@@ -67,3 +67,6 @@ Cars.splice(2,0,"Mahindra","KIA");
 console.log(Cars.toString());
 Cars.splice(0,1,"Etios");
 console.log(Cars.toString());
+//Sorting an Array
+const cricket = ["India", "Australia","South Africa", "Sri Lanka","Pakistan","Bangladesh","England","West Indis","Zimbabway"];
+console.log(cricket.sort());
