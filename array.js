@@ -68,5 +68,16 @@ console.log(Cars.toString());
 Cars.splice(0,1,"Etios");
 console.log(Cars.toString());
 //Sorting an Array
-const cricket = ["India", "Australia","South Africa", "Sri Lanka","Pakistan","Bangladesh","England","West Indis","Zimbabway"];
-console.log(cricket.sort());
+let cricket = ["India", "Australia","South Africa", "Sri Lanka","Pakistan","Bangladesh","England","West Indis","Zimbabway"];
+console.log(cricket.sort().toString());
+//Reversing an Array
+console.log(cricket.reverse().toString()); // initialy sort the array is important then revesrse is working fine
+//Numeric Sort
+const Players = [11,3,5,2,1,6,8,9,7,10,12,4];
+console.log(Players.sort(function(a,b){
+    return a - b
+}).toString());
+//sort an array descending
+console.log(Players.sort(function(a,b){
+    return b - a
+}).toString());
