@@ -81,3 +81,18 @@ console.log(Players.sort(function(a,b){
 console.log(Players.sort(function(a,b){
     return b - a
 }).toString());
+//Sorting an Array in Random Order
+console.log(Players.sort(function(a, b){
+    return 0.5 - Math.random()
+}).toString());
+//The Fisher Yates Method
+function Myplayers(){
+    for(let i = Players.length -1; i > 0; i--){
+        let j = Math.floor(Math.random() * i)
+        let k = Players[i]
+        Players[i] = Players[j]
+        Players[j] = k
+    }
+    console.log(Players.toString());
+}
+console.log(Myplayers());
