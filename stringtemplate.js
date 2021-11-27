@@ -1,4 +1,4 @@
-let Name=`My Name is "Nagappan"`; //back-tics quotes
+let Name="My Name is Nagappan"; //back-tics quotes
 console.log(Name);
 let LName = "Kumaresan";
 let FullName = `${Name} ${LName}`; // string interpolation

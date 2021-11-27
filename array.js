@@ -96,3 +96,13 @@ function Myplayers(){
     console.log(Players.toString());
 }
 console.log(Myplayers());
+//JavaScript Arry Iteration
+//Array.forEach() Method
+const numbers = [45,46,54,64,4,6,5];
+let abc = "";
+numbers.forEach(myFunctionforeach);
+console.log(abc);
+function myFunctionforeach(value, index, array){
+    abc += value;
+}
+
