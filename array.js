@@ -103,6 +103,6 @@ let abc = "";
 numbers.forEach(myFunctionforeach);
 console.log(abc);
 function myFunctionforeach(value, index, array){
-    abc += value;
+    abc += value + "\n";
 }
 
